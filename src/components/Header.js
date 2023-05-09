@@ -1,4 +1,9 @@
 import Image from 'next/image'
+import {
+     MenuIcon,
+     SearchIcon,
+     ShoppingCartIcon
+} from "@heroicons/react/outline"
 
 const Header = () => {
   return (
@@ -14,10 +19,28 @@ const Header = () => {
              />
           </div>
           {/**Search */}
-           <div>
-             <input type="text"/>
-             
+           <div className='bg-yellow-400 hover:bg-yellow-500 hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer'>
+             <input type="text" className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4'/>
+             <SearchIcon className='h-12 p-4'/>
            </div>
+
+          {/**Right */}
+          <div className='text-white flex items-center text-xs space-x-6 mx-6'>
+             <div>
+                <p>hello bitch</p>
+                <p>Acount & Lists</p>
+             </div>
+
+             <div>
+                  <p>Returns</p>
+                  <p>& Orders</p>
+             </div>
+
+             <div>
+                  <ShoppingCartIcon className='h-10'/>
+                  <p>Basket</p>
+             </div>
+          </div>
        </div>
        <div>
 
