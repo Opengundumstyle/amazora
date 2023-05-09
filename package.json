@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start --openssl-legacy-provider"
   },
   "dependencies": {
     "@heroicons/react": "v1",
