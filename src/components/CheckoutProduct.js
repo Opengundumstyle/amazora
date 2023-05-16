@@ -59,7 +59,7 @@ const CheckoutProduct = ({
                         loading="lazy"
                         className='w-12'
                         src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052018/untitled-1_282.png?zBgfG0XEfdsPUq33GRuhu6udfY3Yu_rs&itok=39OQ7JCF"
-                        alt=""
+                        alt="prime"
                       />
                       <p className='text-xs text-gray-500'>Free Next Day Delivery</p>
                   </div>

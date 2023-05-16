@@ -73,7 +73,7 @@ const Product = ({id,title,price,description,category,image}) => {
          {hasPrime && (
             <div className="flex items-center space-x-2 -mt-5">
                   <div>
-                     <img className="w-12" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052018/untitled-1_282.png?zBgfG0XEfdsPUq33GRuhu6udfY3Yu_rs&itok=39OQ7JCF" alt=""/>
+                     <img className="w-12" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052018/untitled-1_282.png?zBgfG0XEfdsPUq33GRuhu6udfY3Yu_rs&itok=39OQ7JCF" alt="prime"/>
                   </div>
                   <div> 
                      <p className="text-xs text-gray-500">Free Next-day Delivery</p> 

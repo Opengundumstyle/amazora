@@ -27,6 +27,7 @@ const Header = () => {
                height={40}
                // layout="responsive"
                className='cursor-pointer px-[20px]'
+               alt="Home -logo"
              />
           </div>
           {/**Search */}
@@ -42,7 +43,7 @@ const Header = () => {
                 <p className='font-extrabold md:text-sm'>Acount & Lists</p>
              </div>
 
-             <div className='link cursor-pointer'> 
+             <div onClick={()=>router.push('/orders')} className='link cursor-pointer'> 
                   <p>Returns</p>
                   <p className='font-extrabold md:text-sm'>& Orders</p>
              </div>
